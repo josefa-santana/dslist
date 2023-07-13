@@ -24,7 +24,11 @@ public class Book {
 	private String genre;
 	private String publisher;
 	private String imgUrl;
+	
+	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
+	
+	@Column(columnDefinition = "TEXT")
 	private String longDescription;
 	
 	public Book() {	
